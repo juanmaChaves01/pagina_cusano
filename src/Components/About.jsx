@@ -14,7 +14,7 @@ export default function About() {
         />
 
         <div className="max-w-xl text-center md:text-left">
-          <h2 className="mb-4 text-4xl font-bold  text-amber-700">Sobre mí</h2>
+          <h2 className="mb-4 text-4xl font-bold  text-accent">Sobre mí</h2>
 
           <p className="mb-4 text-lg">
             Desde hace varios años he dedicado mi vida a compartir el mensaje 

@@ -1,5 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #0A93D4; /*#333e54 #1E5A9C; */;
+  --color-secondary: #D4A017;
+  /*--color-accent: #efb100 #c10007 #72B48B*/
+  --color-accent: #72B48B;
+  /*para hver se utiliza accent/80*/
+  --color-background: #F8F5F0;
+  --color-surface: #FFFFFF;
+  --color-text: #1F2937;
+  --color-muted: #6B7280;
+}
+
 html {
   scroll-behavior: smooth;
 }
+
+

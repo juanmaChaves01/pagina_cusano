@@ -6,12 +6,12 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-[#333e54] text-white">
+    <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-primary text-white">
       <nav className="mx-auto flex max-w-6xl items-center justify-between p-4">
       
         <a href="#inicio" className="flex items-center">
           <img
-            src="/src/assets/react.svg"
+            src="/heart.svg"
             alt="Logo"
             className="w-12 h-12 object-contain"
           />
@@ -22,6 +22,7 @@ export default function Navbar() {
         {/* Menú escritorio */}
         <ul className="hidden md:flex gap-6">
           <li><IndexOption section="inicio" >Inicio</IndexOption></li>
+          <li><IndexOption section="versiculos" >Versículos</IndexOption></li>
           <li><IndexOption section="sobre">Sobre mí</IndexOption></li>
           <li><IndexOption section="contacto">Contacto</IndexOption></li>
         </ul>

@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import fondo from "./assets/fondo1.jpg";
+import fondo from "./assets/Fondo3.jpg";
 import Hero from "./Components/Hero";
 import VerseCard from "./Components/VerseCard";
 import Contacto from "./Components/Contacto";

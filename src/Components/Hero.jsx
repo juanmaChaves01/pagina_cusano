@@ -7,7 +7,7 @@ export default function Hero() {
 
           <h2 className="text-5xl font-bold md:text-7xl">
             Pastor{" "}
-            <span className="bg-clip-text text-amber-600">
+            <span className="bg-clip-text text-accent ">
               Diego Cusano
             </span>
           </h2>
@@ -25,7 +25,7 @@ export default function Hero() {
 
         <a
           href="#versiculos"
-          className="absolute bottom-10 text-3xl animate-bounce text-white"
+          className="absolute bottom-10 text-3xl animate-bounce"
         >
           ↓
         </a>
