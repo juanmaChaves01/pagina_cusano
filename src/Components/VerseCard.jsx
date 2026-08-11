@@ -23,13 +23,13 @@ export default function VerseCard() {
   }
 
   return (
-    <div id="versiculos" className="flex items-center justify-center min-h-screen p-6">
+    <div id="versiculos" className="flex items-center justify-center min-h-screen p-6 ">
     <div className="max-w-2xl w-full rounded-2xl bg-black/4 backdrop-blur-md border border-white/20 shadow-2xl p-8">
-        <h3 className="text-lg font-semibold text-accent mb-4 text-center">
+        <h3 className="text-lg font-semibold text-black text-accent mb-4 text-center">
         {versiculo.libro} {versiculo.capitulo}:{versiculo.versiculo}
         </h3>
 
-        <p className="text-xl leading-relaxed text-center italic">
+        <p className="text-xl leading-relaxed text-center italic ">
         "{versiculo.texto}"
         </p>
         <button onClick={() => setVersiculo(versiculoAleatorio())}

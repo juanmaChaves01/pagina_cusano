@@ -1,9 +1,10 @@
 
 
-export default function NavLink({ section, children }) {
+export default function NavLink({ section, children, onClick}) {
   return (
     <a
       href={`#${section}`}
+      onClick={onClick}
       className="
         relative inline-block
         px-3 py-2

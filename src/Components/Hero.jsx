@@ -14,7 +14,7 @@ export default function Hero() {
         </div>
 
         <div className="mt-10 max-w-xl text-center">
-          <p className="text-lg md:text-xl text-black text-justify">
+          <p className="text-lg md:text-xl text-black ">
             Bienvenido a este espacio donde encontrarás reflexiones bíblicas, mensajes 
             inspiradores y recursos para fortalecer tu relación con Dios. Mi deseo es que
             cada enseñanza sea de bendición y te anime a caminar cada día 

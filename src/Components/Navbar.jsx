@@ -5,9 +5,13 @@ import IndexOption from "./IndexOption";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
-    <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-primary text-white">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between p-4">
+    <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-primary">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between p-5">
       
         <a href="#inicio" className="flex items-center">
           <img
@@ -27,12 +31,16 @@ export default function Navbar() {
           <li><IndexOption section="contacto">Contacto</IndexOption></li>
         </ul>
 
-        {/* Botón hamburguesa móvil */}
+        {/* Botón hamburguesa */}
         <button
           className="md:hidden flex items-center gap-2 cursor-pointer px-3 py-2 rounded-md"
           onClick={() => setOpen(!open)}
         >
-          {open ? <FaTimes className="text-2xl" /> : <FaBars className="text-2xl" />}
+          {open ? (
+            <FaTimes className="text-2xl" />
+          ) : (
+            <FaBars className="text-2xl" />
+          )}
           <span className="text-base font-medium">Menú</span>
         </button>
       </nav>
@@ -41,10 +49,10 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden backdrop-blur-md">
           <ul className="flex flex-col items-center gap-4 py-4">
-            <li><IndexOption section="inicio" >Inicio</IndexOption></li>
-            <li><IndexOption section="versiculos" >Versículos</IndexOption></li>
-            <li><IndexOption section="sobre" >Sobre mí</IndexOption></li>
-            <li><IndexOption section="contacto" >Contacto</IndexOption></li>
+            <li><IndexOption section="inicio"  onClick={closeMenu}>Inicio</IndexOption></li>
+            <li><IndexOption section="versiculos"  onClick={closeMenu}>Versículos</IndexOption></li>
+            <li><IndexOption section="sobre"  onClick={closeMenu}>Sobre mí</IndexOption></li>
+            <li><IndexOption section="contacto"  onClick={closeMenu}>Contacto</IndexOption></li>
           </ul>
         </div>
       )}

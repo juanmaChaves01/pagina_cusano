@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #235762; /*#333e54 #1E5A9C 0A93D4 2d5c66; */;
+  --color-primary: #235762; /*#333e54 #1E5A9C 0A93D4 2d5c66 235762; */;
   --color-secondary: #D4A017;
-  /*--color-accent: #efb100 #c10007 #72B48B*/
-  --color-accent: #be8c77;
+  /*--color-accent: #efb100 #c10007 #72B48B be8c77*/
+  --color-accent: #a67967;
   /*para hver se utiliza accent/80*/
   --color-background: #F8F5F0;
   --color-surface: #FFFFFF;
@@ -16,4 +16,14 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.hero {
+  background-image: url("./assets/fondo4VERTI.webp");
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("./assets/fondo4SIN2.webp");
+  }
+}
 
