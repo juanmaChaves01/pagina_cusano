@@ -5,7 +5,7 @@ export default function SocialLinks() {
  return (
    <div className="flex items-center gap-4">
      <a
-       href="https://www.facebook.com/YeseniaThenOficial"
+       href="https://www.facebook.com/Usuario"
        target="_blank"
        rel="noopener noreferrer"
        className="text-blue-500 transition hover:text-blue-400"
@@ -16,7 +16,7 @@ export default function SocialLinks() {
 
 
      <a
-       href="https://www.tiktok.com/@TU_USUARIO"
+       href="https://www.tiktok.com/@diego.cusano8"
        target="_blank"
        rel="noopener noreferrer"
        className="text-white transition hover:text-gray-300"

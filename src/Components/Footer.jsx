@@ -4,7 +4,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="w-full backdrop-blur-md bg-primary py-8 text-center">
+    <footer className="w-full backdrop-blur-md bg-primary py-6 text-center">
       <div className="p-4">
         <SocialLinks />
       </div>
