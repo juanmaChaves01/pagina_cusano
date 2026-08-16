@@ -1,10 +1,10 @@
-import fotoPerfil from "../assets/foto1.webp";
+import fotoPerfil from "../assets/perfil.webp";
 
 export default function About() {
   return (
     <section
       id="sobre"
-      className="flex min-h-screen items-center justify-center px-6 py-20 "
+      className="flex min-h-screen items-center justify-center px-6 py-10 "
     >
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-10 md:flex-row">
         <img

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import IndexOption from "./IndexOption";
+import SocialLinks from "./SocialLinks";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -11,6 +12,9 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-primary">
+      <div className="p-4">
+        <SocialLinks />
+      </div>
       <nav className="mx-auto flex max-w-6xl items-center justify-between p-5">
       
         <a href="#inicio" className="flex items-center">

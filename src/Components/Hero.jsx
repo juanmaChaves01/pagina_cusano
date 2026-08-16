@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section id="inicio" className="relative h-screen">
-      <div className="relative z-10 flex h-full flex-col items-center justify-center -translate-y-18 px-6">
+      <div className="relative z-1 flex h-full flex-col items-center justify-center -translate-y-4 px-6">
         
         <div className="text-center">
 
